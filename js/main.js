@@ -27,7 +27,7 @@ function showTasksList() {
 			</div>
 		`
 
-    tasksList.style.border = "none"
+    tasksList.style.border = "transparent"
     return tasksList.insertAdjacentHTML("beforeend", element)
   }
 
